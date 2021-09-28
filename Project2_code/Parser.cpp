@@ -7,7 +7,6 @@
 #include <iostream>
 
 
-
 std::string Parser::toString () {
     std::ostringstream oss;
 
@@ -226,27 +225,6 @@ void Parser::headPredicateParse (int &index, Predicate &tempPredicate) {
     else throw index;
 }
 
-void Parser::headPredicateParse (int &index) {
-
-    if (match(index,TokenType::ID)) {
-        index++;
-        if (match(index,TokenType::LEFT_PAREN)){
-            index++;
-            if(match(index,TokenType::ID)){
-                index++;
-                idListParse(index);
-                if(match(index,TokenType::RIGHT_PAREN)) {
-                    index++;
-                }
-                else throw index;
-            }
-            else throw index;
-        }
-        else throw index;
-    }
-    else throw index;
-}
-
 void Parser::predicateParse (int &index, Rule &tempRule) {
     Predicate tempPredicate;
 
@@ -286,40 +264,12 @@ void Parser::predicateParse (int &index, Predicate &tempPredicate) {
     else throw index;
 }
 
-
-void Parser::predicateParse (int &index) {
-    if (match(index,TokenType::ID)) {
-        index++;
-        if (match(index,TokenType::LEFT_PAREN)) {
-            index++;
-            parameterParse(index);
-            parameterListParse(index);
-            if(match(index,TokenType::RIGHT_PAREN)) {
-                index++;
-            }
-            else throw index;
-        }
-        else throw index;
-    }
-    else throw index;
-}
-
 void Parser::predicateListParse (int &index, Rule &tempRule) {
 
     if (match(index,TokenType::COMMA)) {
         index++;
         predicateParse(index, tempRule);
         predicateListParse(index, tempRule);
-    }
-    else return;
-}
-
-void Parser::predicateListParse (int &index) {
-
-    if (match(index,TokenType::COMMA)) {
-        index++;
-        predicateParse(index);
-        predicateListParse(index);
     }
     else return;
 }
@@ -334,16 +284,6 @@ void Parser::parameterListParse (int &index, Predicate &tempPredicate) {
     else return;
 }
 
-void Parser::parameterListParse (int &index) {
-
-    if(match(index,TokenType::COMMA)) {
-        index ++;
-        parameterParse(index);
-        parameterListParse(index);
-    }
-    else return;
-}
-
 void Parser::stringListParse (int &index, Predicate &tempFact) {
     if(match(index,TokenType::COMMA)) {
         index++;
@@ -351,20 +291,6 @@ void Parser::stringListParse (int &index, Predicate &tempFact) {
             tempFact.setString(tokens.at(index)->getDescription());
             index ++;
             stringListParse(index, tempFact);
-        }
-        else throw index;
-    }
-    else {
-        return;
-    }
-}
-
-void Parser::stringListParse (int &index) {
-    if(match(index,TokenType::COMMA)) {
-        index++;
-        if (match(index,TokenType::STRING)){
-            index ++;
-            stringListParse(index);
         }
         else throw index;
     }
@@ -389,22 +315,6 @@ void Parser::idListParse (int &index, Predicate &tempPredicate) {
     }
 }
 
-void Parser::idListParse (int &index) {
-
-    if (match(index,TokenType::COMMA)){
-        index++;
-        if(match(index,TokenType::ID)) {
-
-            index++;
-            idListParse(index);
-        }
-        else throw index;
-    }
-    else {
-        return;
-    }
-}
-
 void Parser::parameterParse (int &index, Predicate &tempPredicate) {
     if(match(index,TokenType::STRING)){
 
@@ -414,17 +324,6 @@ void Parser::parameterParse (int &index, Predicate &tempPredicate) {
     else if (match(index,TokenType::ID)){
 
         tempPredicate.setID(tokens.at(index)->getDescription());
-        index++;
-    }
-    else throw index;
-}
-
-
-void Parser::parameterParse (int &index) {
-    if(match(index,TokenType::STRING)){
-        index++;
-    }
-    else if (match(index,TokenType::ID)){
         index++;
     }
     else throw index;

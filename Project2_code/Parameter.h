@@ -15,28 +15,10 @@ private:
     std::string choice;
 public:
 
-    Parameter(std::string tempChoice, std::string tempString): choice(tempChoice) {
-        if (choice == "STRING" ) {
-            STRING = tempString;
-        }
-        else {
-             ID = tempString;
-        }
-    }
-
+    Parameter(std::string tempChoice, std::string tempString);
     ~Parameter() {}
 
-    std::string toString() {
-        std::ostringstream oss;
-        if (choice == "STRING") {
-            oss << STRING;
-        }
-        else {
-            oss << ID;
-        }
-
-        return oss.str();
-    }
+    std::string toString();
 
 
 };

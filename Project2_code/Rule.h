@@ -32,19 +32,7 @@ public:
         return predicateList;
     }
 
-    std::string toString () {
-        std::ostringstream oss;
-
-        oss << headPredicate.toString() << " :- ";
-
-        for (unsigned int i = 0; i < predicateList.size() - 1; i++) {
-            oss << predicateList.at(i).toString() << ",";
-        }
-
-        oss << predicateList.at(predicateList.size() - 1).toString() << ".";
-
-        return oss.str();
-    }
+    std::string toString ();
 
 };
 

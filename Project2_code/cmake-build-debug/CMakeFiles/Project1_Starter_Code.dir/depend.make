@@ -26,6 +26,12 @@ CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj: \
  ../CommentAutomaton.cpp \
  ../CommentAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj: \
+ ../DatalogProgram.cpp \
+ ../DatalogProgram.h \
+ ../Parameter.h \
+ ../Predicate.h \
+ ../Rule.h
 CMakeFiles/Project1_Starter_Code.dir/EOFAutomaton.cpp.obj: \
  ../Automaton.h \
  ../EOFAutomaton.cpp \
@@ -74,6 +80,9 @@ CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.obj: \
  ../MultiplyAutomaton.cpp \
  ../MultiplyAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj: \
+ ../Parameter.cpp \
+ ../Parameter.h
 CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.obj: \
  ../DatalogProgram.h \
  ../Parameter.h \
@@ -87,6 +96,10 @@ CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.obj: \
  ../PeriodAutomaton.cpp \
  ../PeriodAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj: \
+ ../Parameter.h \
+ ../Predicate.cpp \
+ ../Predicate.h
 CMakeFiles/Project1_Starter_Code.dir/Q_MarkAutomaton.cpp.obj: \
  ../Automaton.h \
  ../Q_MarkAutomaton.cpp \
@@ -102,6 +115,11 @@ CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.obj: \
  ../RightParenAutomaton.cpp \
  ../RightParenAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj: \
+ ../Parameter.h \
+ ../Predicate.h \
+ ../Rule.cpp \
+ ../Rule.h
 CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.obj: \
  ../Automaton.h \
  ../RulesAutomaton.cpp \

@@ -115,6 +115,12 @@
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/CommentAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/DatalogProgram.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/DatalogProgram.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/EOFAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -151,6 +157,12 @@
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/MultiplyAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Parameter.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Parameter.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Parser.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -161,6 +173,12 @@
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/PeriodAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Predicate.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Predicate.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Q_MarkAutomaton.cpp">
@@ -179,6 +197,12 @@
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/RightParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Rule.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Rule.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/RulesAutomaton.cpp">

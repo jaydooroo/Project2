@@ -50,4 +50,13 @@ add_executable(Project1_Starter_Code
         EOFAutomaton.h
         Parser.cpp
         Parser.h
+        Parameter.cpp
+        Parameter.h
+        Predicate.cpp
+        Predicate.h
+        DatalogProgram.h
+        DatalogProgram.cpp
+        Rule.cpp
+        Rule.h
+
         )

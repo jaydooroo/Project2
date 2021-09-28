@@ -42,20 +42,7 @@ std::string returnID() {
     return ID;
 }
 
-std::string toString () {
-
-    std::ostringstream oss;
-     oss << ID << "(" ;
-    for (unsigned int i = 0; i < insideString.size() - 1; i++) {
-        oss << insideString.at(i).toString() << ",";
-    }
-    oss << insideString.at(insideString.size() - 1).toString() ;
-
-    oss << ")";
-
-    return oss.str();
-}
-
+std::string toString ();
 };
 
 

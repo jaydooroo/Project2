@@ -373,6 +373,62 @@ CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ejh61\clone\project2\Project2_code\Parser.cpp -o CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.s
 
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/includes_CXX.rsp
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ejh61\clone\project2\Project2_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj -c C:\Users\ejh61\clone\project2\Project2_code\Parameter.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ejh61\clone\project2\Project2_code\Parameter.cpp > CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ejh61\clone\project2\Project2_code\Parameter.cpp -o CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/includes_CXX.rsp
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ejh61\clone\project2\Project2_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project1_Starter_Code.dir\Predicate.cpp.obj -c C:\Users\ejh61\clone\project2\Project2_code\Predicate.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ejh61\clone\project2\Project2_code\Predicate.cpp > CMakeFiles\Project1_Starter_Code.dir\Predicate.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ejh61\clone\project2\Project2_code\Predicate.cpp -o CMakeFiles\Project1_Starter_Code.dir\Predicate.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/includes_CXX.rsp
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ejh61\clone\project2\Project2_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project1_Starter_Code.dir\DatalogProgram.cpp.obj -c C:\Users\ejh61\clone\project2\Project2_code\DatalogProgram.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ejh61\clone\project2\Project2_code\DatalogProgram.cpp > CMakeFiles\Project1_Starter_Code.dir\DatalogProgram.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ejh61\clone\project2\Project2_code\DatalogProgram.cpp -o CMakeFiles\Project1_Starter_Code.dir\DatalogProgram.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj: CMakeFiles/Project1_Starter_Code.dir/includes_CXX.rsp
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ejh61\clone\project2\Project2_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj -c C:\Users\ejh61\clone\project2\Project2_code\Rule.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ejh61\clone\project2\Project2_code\Rule.cpp > CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ejh61\clone\project2\Project2_code\Rule.cpp -o CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.s
+
 # Object files for target Project1_Starter_Code
 Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.obj" \
@@ -396,7 +452,11 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.obj" \
 "CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj" \
 "CMakeFiles/Project1_Starter_Code.dir/EOFAutomaton.cpp.obj" \
-"CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.obj"
+"CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.obj" \
+"CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj" \
+"CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj" \
+"CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj" \
+"CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj"
 
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
@@ -423,11 +483,15 @@ Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.c
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/EOFAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/build.make
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/linklibs.rsp
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/objects1.rsp
 Project1_Starter_Code.exe: CMakeFiles/Project1_Starter_Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ejh61\clone\project2\Project2_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Project1_Starter_Code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ejh61\clone\project2\Project2_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Project1_Starter_Code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project1_Starter_Code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
