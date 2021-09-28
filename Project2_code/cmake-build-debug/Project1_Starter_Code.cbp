@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project1_Starter_Code">
-				<Option output="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Project1_Starter_Code.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug"/>
+				<Option output="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Project1_Starter_Code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/."/>
+					<Add directory="C:/Users/ejh61/clone/project2/Project2_code/."/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -33,20 +33,20 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Starter_Code"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Starter_Code"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project1_Starter_Code/fast">
-				<Option output="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Project1_Starter_Code.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug"/>
+				<Option output="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Project1_Starter_Code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/."/>
+					<Add directory="C:/Users/ejh61/clone/project2/Project2_code/."/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -55,166 +55,166 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Starter_Code/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Starter_Code/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ejh61/clone/project2/Project2_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/AddAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/AddAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/AddAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/AddAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Automaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Automaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/ColonAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/ColonAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/ColonAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/ColonAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/ColonDashAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/ColonDashAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/ColonDashAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/ColonDashAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/CommaAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/CommaAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/CommaAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/CommaAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/CommentAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/CommentAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/CommentAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/CommentAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/EOFAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/EOFAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/EOFAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/EOFAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/FactsAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/FactsAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/FactsAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/FactsAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/IDAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/IDAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/IDAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/IDAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/LeftParenAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/LeftParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/LeftParenAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/LeftParenAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Lexer.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Lexer.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Lexer.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Lexer.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/MultiplyAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/MultiplyAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/MultiplyAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/MultiplyAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Parser.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Parser.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Parser.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Parser.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/PeriodAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/PeriodAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/PeriodAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/PeriodAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Q_MarkAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Q_MarkAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Q_MarkAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Q_MarkAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/QueriesAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/QueriesAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/QueriesAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/QueriesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/RightParenAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/RightParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/RightParenAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/RightParenAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/RulesAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/RulesAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/RulesAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/RulesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/SchemesAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/SchemesAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/SchemesAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/SchemesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/StringAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/StringAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/StringAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/StringAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Token.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Token.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/Token.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/Token.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/UndefinedAutomaton.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/UndefinedAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/UndefinedAutomaton.h">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/UndefinedAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/main.cpp">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/main.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="C:/Users/ejh61/clone/project1/Project1/Project1_Starter_Code/CMakeLists.txt">
+		<Unit filename="C:/Users/ejh61/clone/project2/Project2_code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

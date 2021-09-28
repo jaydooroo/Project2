@@ -20,58 +20,58 @@ std::string Parser::toString () {
 }
 
 void Parser::printDatalog () {
-   std::cout << datalog.toString();
+    std::cout << datalog.toString();
 }
 
 
-  std::string Parser::datalogParse() {
-      int i = 0;
-  try {
+std::string Parser::datalogParse() {
+    int i = 0;
+    try {
 
-      if (match(i,TokenType::SCHEMES)) {
-          i++;
-          if (match(i,TokenType::COLON)) {
-              i++;
-              schemeParse(i);
-              schemeListParse(i);
-              if (match(i,TokenType::FACTS)) {
-                  i++;
-                  if (match(i,TokenType::COLON)) {
-                      i++;
-                      factListParse(i);
-                      if (match(i,TokenType::RULES)) {
-                          i++;
-                          if (match(i,TokenType::COLON)) {
-                              i++;
-                              ruleListParse(i);
-                              if (match(i,TokenType::QUERIES)) {
-                                  i++;
-                                  if (match(i,TokenType::COLON)){
-                                      i++;
-                                      queryParse(i);
-                                      queryListParse(i);
-                                      if (match(i,TokenType::_EOF)){
+        if (match(i,TokenType::SCHEMES)) {
+            i++;
+            if (match(i,TokenType::COLON)) {
+                i++;
+                schemeParse(i);
+                schemeListParse(i);
+                if (match(i,TokenType::FACTS)) {
+                    i++;
+                    if (match(i,TokenType::COLON)) {
+                        i++;
+                        factListParse(i);
+                        if (match(i,TokenType::RULES)) {
+                            i++;
+                            if (match(i,TokenType::COLON)) {
+                                i++;
+                                ruleListParse(i);
+                                if (match(i,TokenType::QUERIES)) {
+                                    i++;
+                                    if (match(i,TokenType::COLON)){
+                                        i++;
+                                        queryParse(i);
+                                        queryListParse(i);
+                                        if (match(i,TokenType::_EOF)){
 
-                                          std::string tempString = "Success!";
-                                          return tempString;
+                                            std::string tempString = "Success!";
+                                            return tempString;
 
-                                      } else throw i;
-                                  }else throw i;
-                              } else throw i;
-                          } else throw i;
-                      } else throw i;
-                  } else throw i;
-              } else throw i;
-          } else throw i;
-      } else throw i;
-  }
-  catch (int index) {
-      std::ostringstream oss;
-      oss << "Failure!" << std::endl;
-      oss << "  (" << tokens.at(index)->dayToString(tokens.at(index)->getTokenType()) << ",\"" << tokens.at(index)->getDescription() << "\","
-      << tokens.at(index)->getLine() <<")";
-      return oss.str();
-  }
+                                        } else throw i;
+                                    }else throw i;
+                                } else throw i;
+                            } else throw i;
+                        } else throw i;
+                    } else throw i;
+                } else throw i;
+            } else throw i;
+        } else throw i;
+    }
+    catch (int index) {
+        std::ostringstream oss;
+        oss << "Failure!" << std::endl;
+        oss << "  (" << tokens.at(index)->dayToString(tokens.at(index)->getTokenType()) << ",\"" << tokens.at(index)->getDescription() << "\","
+            << tokens.at(index)->getLine() <<")";
+        return oss.str();
+    }
 }
 
 
@@ -131,39 +131,42 @@ void Parser::schemeParse (int &index) {
 
                     datalog.setScheme(tempScheme);
                     index++;
-
-                }
-                else throw index;
-
             }
             else throw index;
 
-        } else throw index;
+        }
+        else throw index;
+
     }
     else throw index;
+}
+else throw index;
 }
 
 void Parser::factParse (int &index) {
     if (match(index,TokenType::ID)) {
         Predicate tempFact(tokens.at(index)->getDescription());
         index ++;
-       if(match(index,TokenType::LEFT_PAREN)){
-           index ++;
-           if(match(index,TokenType::STRING))
-               tempFact.setString(tokens.at(index)->getDescription()); // string datalog에 집어넣자 우리 (string list 참조)
-               index++;
-           stringListParse(index, tempFact);
-           if(match(index,TokenType::RIGHT_PAREN)){
-               index++;
-               if (match(index,TokenType::PERIOD)) {
-                   datalog.setFact(tempFact);
-                   index++;
-               }
-               else throw index;
-           }
-           else throw index;
-       }
-       else throw index;
+        if(match(index,TokenType::LEFT_PAREN)){
+            index ++;
+            if(match(index,TokenType::STRING)) {
+                tempFact.setString(tokens.at(index)->getDescription()); // string datalog에 집어넣자 우리 (string list 참조)
+                index++;
+                stringListParse(index, tempFact);
+                if(match(index,TokenType::RIGHT_PAREN)){
+                    index++;
+                    if (match(index,TokenType::PERIOD)) {
+                        datalog.setFact(tempFact);
+                        index++;
+                    }
+                    else throw index;
+
+                }
+                else throw index;
+            }
+            else throw index;
+        }
+        else throw index;
     }
     else throw index;
 }
